@@ -1,0 +1,26 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="1671583592_kalix-club-p-genshin-oboi-na-planshet-pinterest-2.png"/>
+        </Grid.Background>
+        <Button x:Name="button" Content="Вычеслить" HorizontalAlignment="Left" Height="48" Margin="39,33,0,0" VerticalAlignment="Top" Width="161" Click="button_Click" Background="#FFD7FAFF"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="28" Margin="505,33,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="221" Background="#FFFFF6BB"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="27" Margin="505,152,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="221" Background="#FFFFFFC0"/>
+        <TextBox x:Name="textBox3" HorizontalAlignment="Left" Height="26" Margin="505,208,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="221" Background="#FFFFFFC4"/>
+        <TextBox x:Name="textBox4" HorizontalAlignment="Left" Height="27" Margin="505,295,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="221" Background="#FFFFFFC0"/>
+        <Label x:Name="label" Content="k=" HorizontalAlignment="Left" Margin="466,35,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="n=" HorizontalAlignment="Left" Margin="465,94,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content="x=" HorizontalAlignment="Left" Margin="466,152,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label3" Content="y=" HorizontalAlignment="Left" Margin="466,208,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label4" Content="ответ" HorizontalAlignment="Left" Margin="466,295,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="505,98,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="221" Background="#FFFFFFAC"/>
+
+    </Grid>
+</Window>
